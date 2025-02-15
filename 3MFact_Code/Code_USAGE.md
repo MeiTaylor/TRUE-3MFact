@@ -71,18 +71,7 @@ Results are logged in `Evaluation.log` and include:
 - Average evaluation scores
 - Detailed performance statistics
 
-## Directory Structure
-```
-3MFact_Framework/
-├── Evaluation_Relate/     # Evaluation related codes
-├── Katna/                 # Video frame extraction
-├── ClaimVerifier.py      # Claim verification module
-├── Config.py             # Configuration settings
-├── Evaluation.py         # Evaluation script
-├── InformationRetriever.py # Information retrieval
-├── Pipeline.py           # Main pipeline
-└── ...
-```
+
 
 
 ## License
