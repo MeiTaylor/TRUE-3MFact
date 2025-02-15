@@ -44,8 +44,8 @@ The TRUE dataset contains:
   - False Labels (1,828 samples):
     - Including False, Miscaptioned, Mixture, Fake, and Mostly False
 - **Multi-platform Coverage**:
-   - Social Media (SM): Instagram, TikTok, Facebook, X (Twitter), YouTube
-   - Official Media (OM): NYT, CNBC, Fox News
+   - Social Media (SM): YouTube, X (Twitter), TikTok, Facebook, Instagram
+   - Official Media (OM): New York Times (NYT), CNBC, Fox News
 
 ### Key Features
 1. **Dual Rationales System**:
