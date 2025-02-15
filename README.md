@@ -1,12 +1,71 @@
 # Pioneering Explainable Video Fact-Checking with a New Dataset and Multi-role Multimodal Model Approach
 
-Official repository for "[Pioneering Explainable Video Fact-Checking with a New Dataset and Multi-role Multimodal Model Approach](https://openreview.net/forum?id=fln4pLoJxK)" (Published in AAAI AISI 2025).
+Official repository for "[Pioneering Explainable Video Fact-Checking with a New Dataset and Multi-role Multimodal Model Approach](https://openreview.net/forum?id=fln4pLoJxK)" (Published in Artificial Intelligence for Social Impact Track, AAAI 2025).
 
+## Authors
+
+- Kaipeng Niu<sup>1†</sup> (kaipengniu@whu.edu.cn)
+- Danni Xu<sup>2†</sup> (dannixu@u.nus.edu)
+- Bingjian Yang<sup>1</sup> (yangbingjian@whu.edu.cn)
+- Wenxuan Liu<sup>3</sup> (liuwx66@pku.edu.cn)
+- Zheng Wang<sup>1*</sup> (wangzwhu@whu.edu.cn)
+
+<sup>1</sup> National Engineering Research Center for Multimedia Software, School of Computer Science, Wuhan University, China  
+<sup>2</sup> National University of Singapore, Singapore  
+<sup>3</sup> Peking University, China  
+<sup>†</sup> Equal contribution  
+<sup>*</sup> Corresponding author
 
 
 ## Overview
 
 We present TRUE (Truthfulness and Rationale with Underlying Evidence), a comprehensive video fact-checking dataset that includes detailed annotations for veracity labels, rationales, and supporting evidence. Along with the dataset, we also introduce 3MFact, a multi-role collaboration framework for video fact-checking.
+
+
+
+## Project Poster
+![Project Poster](./Poster.png)
+
+
+
+
+
+## Dataset Highlights
+
+### Dataset Statistics
+![Dataset Statistics](./TRUE_Dataset/Dataset_Statistics.png)
+
+The TRUE dataset contains:
+- **Total Samples**: 2,925 video fact-checking cases (2016-2024)
+- **Video Length**: All videos are under 5 minutes
+- **Veracity Labels**:
+  - True Labels (1,097 samples):
+    - Including True, Mostly True , and Correct Attribution
+  - False Labels (1,828 samples):
+    - Including False, Miscaptioned, Mixture, Fake, and Mostly False
+- **Multi-platform Coverage**:
+   - Social Media (SM): Instagram, TikTok, Facebook, X (Twitter), YouTube
+   - Official Media (OM): NYT, CNBC, Fox News
+
+### Key Features
+1. **Dual Rationales System**:
+   - **Expert-Crafted Rationales (ECR)**: 
+     - Direct extraction from professional fact-checking articles (Snopes)
+     - Preserves original fact-checking reasoning and expert insights
+     - Contains main rationales for direct rating justification
+     - Includes additional supporting rationales for comprehensive verification
+   - **LLM-Summary Rationales (LSR)**:
+     - Systematically synthesized explanations through LLMs
+     - Transforms fact-checking articles into concise yet comprehensive summaries
+     - Decomposes the verification process into structured reasoning chains
+
+
+2. **Comprehensive Annotations**:
+   - Detailed Evidence Collection
+   - Evidence-Rationale Relationship Analysis
+   - Video Information (transcripts, metadata)
+
+
 
 
 
@@ -23,19 +82,18 @@ We present TRUE (Truthfulness and Rationale with Underlying Evidence), a compreh
 
 
 ## **Citation (To be updated)**
-The following citation format is temporary and will be updated with the official AAAI citation format upon publication. If you use this dataset or code in your research, please check back later for the updated citation or cite our paper as follows:
+If you use this dataset or code in your research, please temporarily cite our paper as follows (the official citation format will be updated upon publication):
 
 
 ```bibtex
-@inproceedings{
-anonymous2024pioneering,
-title={Pioneering Explainable Video Fact-Checking with a New Dataset and Multi-role Multimodal Model Approach},
-author={Anonymous},
-booktitle={AAAI 2025 Artificial Intelligence for Social Impact Track},
-year={2024},
-url={https://openreview.net/forum?id=fln4pLoJxK}
+@inproceedings{niu2024pioneering,
+  title={Pioneering Explainable Video Fact-Checking with a New Dataset and Multi-role Multimodal Model Approach},
+  author={Niu, Kaipeng and Xu, Danni and Yang, Bingjian and Liu, Wenxuan and Wang, Zheng},
+  booktitle={AAAI 2025 Artificial Intelligence for Social Impact Track},
+  year={2024}
 }
 ```
+
 
 
 
