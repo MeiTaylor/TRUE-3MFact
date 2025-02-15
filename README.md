@@ -89,7 +89,7 @@ If you use this dataset or code in your research, please temporarily cite our pa
 @inproceedings{niu2024pioneering,
   title={Pioneering Explainable Video Fact-Checking with a New Dataset and Multi-role Multimodal Model Approach},
   author={Niu, Kaipeng and Xu, Danni and Yang, Bingjian and Liu, Wenxuan and Wang, Zheng},
-  booktitle={AAAI 2025 Artificial Intelligence for Social Impact Track},
+  booktitle={AAAI},
   year={2024}
 }
 ```
