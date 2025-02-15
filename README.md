@@ -22,9 +22,9 @@ We present TRUE (Truthfulness and Rationale with Underlying Evidence), a compreh
 
 
 
-## Citation
+## **Citation (To be updated)**
+The following citation format is temporary and will be updated with the official AAAI citation format upon publication. If you use this dataset or code in your research, please check back later for the updated citation or cite our paper as follows:
 
-If you use this dataset or code in your research, please cite our paper:
 
 ```bibtex
 @inproceedings{
