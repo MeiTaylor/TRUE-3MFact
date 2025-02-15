@@ -5,22 +5,22 @@ MODEL_CONFIG = {
     "llm": {
         "model_name": "gpt-4o-mini",
         "model_type": "OpenAI",
-        "model_key": "sk-P5XNXJl13d7dc49f30D7T3BLBKFJ7cb0ca6A5908472aBCBf"
+        "model_key": ""
     },
     "video_lmm": {
         "model_name": "MiniCPM-V-2.6",
         "model_type": "MiniCPM",
-        "local_model_path": "/Data/niukaipeng/pretrained_model/OpenBMB/MiniCPM-V-2_6"
+        "local_model_path": ""
     },
     "image_lmm": {
         "model_name": "MiniCPM-V-2.6",
         "model_type": "MiniCPM",
-        "local_model_path": "/Data/niukaipeng/pretrained_model/OpenBMB/MiniCPM-V-2_6"
+        "local_model_path": ""
     },
     "en_core_web_sm":{
         "model_name": "en_core_web_sm-3.7.1",
         "model_type": "Spacy",
-        "local_model_path": "/home/public/FakeNews/nkp/3MFact_Framework_213/model/en_core_web_sm-3.7.1"
+        "local_model_path": ""
     }
 }
 
@@ -70,7 +70,7 @@ PATH_CONFIG = {
 
 # API Related Configurations
 API_CONFIG = {
-    "google_api_key": "sk-P5XNXJl13d7dc49f30D7T3BLBKFJ7cb0ca6A5908472aBCBf",
+    "google_api_key": "",
 }
 
 
@@ -80,7 +80,7 @@ API_CONFIG = {
 # Dataset Configurations
 DATASET_CONFIG = {
     # Root directory path (relative to Config.py)
-    "root_dir": "/home/public/FakeNews/nkp/TRUE_Dataset",
+    "root_dir": "",
    
     # Annotation file paths (relative to root_dir)
     "annotation": {
