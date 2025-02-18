@@ -24,8 +24,7 @@ We present TRUE (Truthfulness and Rationale with Underlying Evidence), a compreh
 
 
 ## Project Poster
-![Project Poster](./Poster.png)
-
+<img src="./Poster.png" width="90%">
 
 
 
@@ -33,7 +32,8 @@ We present TRUE (Truthfulness and Rationale with Underlying Evidence), a compreh
 ## Dataset Highlights
 
 ### Dataset Statistics
-![Dataset Statistics](./TRUE_Dataset/Dataset_Statistics.png)
+
+<img src="./TRUE_Dataset/Dataset_Statistics.png" width="70%">
 
 The TRUE dataset contains:
 - **Total Samples**: 2,925 video fact-checking cases (2016-2024)
