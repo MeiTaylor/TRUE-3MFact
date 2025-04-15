@@ -1,6 +1,6 @@
 # Pioneering Explainable Video Fact-Checking with a New Dataset and Multi-role Multimodal Model Approach
 
-Official repository for "[Pioneering Explainable Video Fact-Checking with a New Dataset and Multi-role Multimodal Model Approach](https://openreview.net/forum?id=fln4pLoJxK)" (Published in Artificial Intelligence for Social Impact Track, AAAI 2025).
+Official repository for "[Pioneering Explainable Video Fact-Checking with a New Dataset and Multi-role Multimodal Model Approach](https://ojs.aaai.org/index.php/AAAI/article/view/35048)" (Published in Artificial Intelligence for Social Impact Track, AAAI 2025).
 
 ## Authors
 
