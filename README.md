@@ -86,11 +86,14 @@ If you use this dataset or code in your research, please temporarily cite our pa
 
 
 ```bibtex
-@inproceedings{niu2024pioneering,
+@inproceedings{niu2025pioneering,
   title={Pioneering Explainable Video Fact-Checking with a New Dataset and Multi-role Multimodal Model Approach},
   author={Niu, Kaipeng and Xu, Danni and Yang, Bingjian and Liu, Wenxuan and Wang, Zheng},
-  booktitle={AAAI},
-  year={2024}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={27},
+  pages={28276--28283},
+  year={2025}
 }
 ```
 
